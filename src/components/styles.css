@@ -1,0 +1,27 @@
+.div-button { 
+    display:flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.button {
+    height: 30px;
+    width: 60px;
+    margin: 5px;
+}
+
+.button:hover {
+    background-color:dodgerblue; 
+}
+
+.button:focus {
+    background-color: dodgerblue;
+}
+
+.link-button {
+ text-decoration: none;
+ color: black;
+}
