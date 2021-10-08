@@ -13,15 +13,27 @@
     margin: 5px;
 }
 
-.button:hover {
+.link-button:hover {
     background-color:dodgerblue; 
 }
 
-.button:focus {
+.link-button:hover {
     background-color: dodgerblue;
 }
+
+.link-button:active {
+    color: white;
+}
+
 
 .link-button {
  text-decoration: none;
  color: black;
+ height: 30px;
+ width: 60px;
+ margin: 5px;
+ background-color: gray;
+ border: black;
+ border-radius: 10px;
+ text-align: center;
 }

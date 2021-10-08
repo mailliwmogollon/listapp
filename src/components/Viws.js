@@ -7,7 +7,7 @@ const List = () => <h1>List</h1>
 const Add = () => <h1>Add</h1>
 
 
-function Viws() {
+export default function Viws() {
     return (
    
         <Switch>
@@ -20,16 +20,12 @@ function Viws() {
             </Route>
 
         <div className="div-button">
-            <button className="button">
-                <Link to='/list' className="link-button">
+                <Link to='/list' className="link-button" activeClassName = "selected">
                     List
                 </Link>
-            </button>
-            <button className="button">
                 <Link to='/add' className="link-button">
                     Add
                 </Link>
-            </button>
         </div>
 
         </Switch>
@@ -37,4 +33,3 @@ function Viws() {
     );
   }
   
-  export default Viws;
