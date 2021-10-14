@@ -1,16 +1,12 @@
 import React from 'react';
-import Viws from './components/Viws';
-import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { AppRouting } from './components/AppRouting';
 
 function App() {
   return (
     <Router>
-
-     <div className="App">
-        <Viws />
-     </div>
-
+      <AppRouting/>
     </Router>
   );
 }
