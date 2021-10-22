@@ -32,3 +32,22 @@ text-align: center;
 .container {
   text-align: center;
 }
+
+.form-input {
+  height: calc(100vh - 100px);
+  text-align: center;
+  overflow: auto;
+  margin-top: 50px;
+  padding: 20px;
+  width: 20%;
+}
+
+.form-input-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input-radio {
+  display: flex;
+  flex-direction: column;
+}
